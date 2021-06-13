@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko-kr">
+<head>
+	<meta charset="UTF-8">
+	<title>케이스</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+			font-family: 'Montserrat', sans-serif;
+		}
+		#header{
+			width:100%;
+			overflow: hidden;
+			height:100px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.logo{
+			float:left;
+			height: 100px;
+			line-height: 100px;
+			margin-left: 30px;
+			font-size:30px;
+			color:black;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		.logo:hover{
+			font-size:32px;
+			text-decoration: none;
+			color:#c83013;
+		}
+		#menu{
+			float:right;
+			margin-right:20px;
+			list-style: none;
+			font-size: 16px;
+		}
+		#menu li{
+			float: left;
+		}		
+		#menu li a{
+			text-decoration: none;
+			color:black;
+			font-size:16px;
+			font-weight: 700;
+			display:block;
+			line-height: 100px;
+			margin-right: 20px;
+			margin-left: 20px;
+
+		}
+		#menu li a:hover{
+			text-decoration: underline;
+		}
+		h1{
+			font-size:20px;
+			text-align: center;
+			margin-bottom: 36px;
+		}
+		#list{
+			text-align: center;	
+
+		}
+		.product{
+			margin-right:1px;
+			margin-left: 1px;
+			text-decoration: none;
+			color:#0f0f0f;
+			border: 1px solid #0f0f0f;
+			font-size:12px;
+			padding:5px 5px 5px 5px; 
+		}
+		.product:hover{
+			border:3px solid #0f0f0f;
+		}
+		.now{
+			color:#0f0f0f;
+			margin-right:1px;
+			margin-left: 1px;
+			text-decoration: none;
+			border: 1px solid #0f0f0f;	
+			font-size:12px;
+			padding:5px 5px 5px 5px; 
+			background-color: #0f0f0f;
+			color:white;
+		}
+		.container {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top:50px;
+			width: 1350px;
+		}
+		.box1{
+			float: left;
+			margin-right: 50px;
+			margin-bottom: 50px;
+		}
+		.box2{
+			float: left;
+			margin-right: 50px;
+			margin-bottom: 50px;
+		}
+		.box3{
+			float: left;
+			margin-bottom: 50px;
+			margin-right: 50px;			
+		}
+		.box4{
+			float: left;
+			margin-bottom: 50px;						
+		}
+		#name{
+			text-align: center;
+			font-size:14px;
+			font-weight: bold;
+			color:#0f0f0f;
+			margin-bottom: 10px;
+			margin-top:36px;
+		}
+		#price{
+			text-align: center;
+			font-size:12px;
+			color:#707070;
+			font-weight: 500;
+		}
+		.footer{
+			float: left;
+			width: 100%;
+			height: 150px;
+			text-align: center;
+			border-top:1px solid #cfcfcf;
+		}
+		.info{
+			width:100%;
+			font-size : 6px;
+			font-weight: normal;
+			margin-top:50px;			
+		}
+	</style>
+</head>
+<body>
+	<div id="header">				
+		<a href="index.html" class="logo">아우른 Aureun</a>
+		<ul id="menu">
+			<li><a href="aboutus.html">ABOUT US</a></li>
+			<li><a href="케이스.html">SHOP</a></li>
+			<li><a href="후원.html">DONATION</a></li>	
+		</ul>
+	</div>
+	<h1>SHOP</h1>
+	<div id="list">
+		<a href="케이스.html" class="now">PHONE CASE</a>
+		<a href="그립톡.html" class="product">GRIPTOK</a>
+		<a href="기타.html" class="product">ETC</a>
+	</div>
+	<div class="container">
+		<div class="box">
+			<div class="box1">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/T1Sh6bj5/phonecase1.png" width="300" height="300"></a>
+				<p id="name">유기견 후원, 믹스아이 케이스</p>
+				<p id="price">18,000원</p>				
+			</div>
+			<div class="box2">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/VLxB90yN/pc2.png" width="300" height="300"></a>	
+				<p id="name">유기묘 후원, 블랙밴딩트리오 고양이 케이스</p>
+				<p id="price">18,000원</p>			
+			</div>
+			<div class="box3">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/vZwfxR9g/pc3.png" width="300" height="300"></a>
+				<p id="name">아우른 티웨이항공 콜라보 Fly With Me</p>
+				<p id="price">18,000원</p>				
+			</div>
+			<div class="box4">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/x1GHKsys/pc4.png" width="300" height="300"></a>
+				<p id="name">멍냥 기부 케이스</p>
+				<p id="price">18,000원</p>				
+			</div>
+		</div>
+		<div class="box">
+			<div class="box1">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/PJz0ttRH/pc9.png" width="300" height="300"></a>
+				<p id="name">믹스아이 에어팟/버즈 케이스</p>
+				<p id="price">12,900원</p>				
+			</div>
+			<div class="box2">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/QdBSm8JM/pc12.png" width="300" height="300"></a>	
+				<p id="name">[특별판매]아우른 투명 스티커케이스</p>
+				<p id="price">6,700원</p>			
+			</div>
+			<div class="box3">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/2jFtLS0R/pc11.png" width="300" height="300"></a>
+				<p id="name">[겨울 에디션]레드(후원케이스)</p>
+				<p id="price">18,000원</p>				
+			</div>
+			<div class="box4">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/ZqGQpBkZ/pc10.png" width="300" height="300"></a>
+				<p id="name">블랙아이 에어팟/버즈 케이스</p>
+				<p id="price">12,900원</p>				
+			</div>
+		</div>
+		<div class="box">
+			<div class="box1">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/T17GMX6k/pc5.png" width="300" height="300"></a>
+				<p id="name">아우른 티웨이항공 콜라보 Off Line</p>
+				<p id="price">18,000원</p>				
+			</div>
+			<div class="box2">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/Kvjx74PC/pc6.png" width="300" height="300"></a>
+				<p id="name">유기견 후원, 아우른 알록달록 강아지 케이스</p>
+				<p id="price">18,000원</p>				
+			</div>
+			<div class="box3">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/rFHcfcgs/pc7.png" width="300" height="300"></a>
+				<p id="name">Adopt 기부 케이스</p>
+				<p id="price">18,000원</p>				
+			</div>
+			<div class="box4">
+				<a class="link" href="#"><img class="picture"src="https://i.postimg.cc/9F6K4fJd/pc8.png" width="300" height="300"></a>
+				<p id="name">유기견 후원, 아우른 아이비글 강아지 케이스</p>
+				<p id="price">18,000원</p>				
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p class="info">COMPANY NAME : 아우른<br>TEL : 010.9555.3697<br>ADDRESS : 서울특별시 강서구 공항대로43길 104 (등촌주공7,8단지아파트) 805동 905호 (우 : 07576)<br>CPO : 박민서</p>
+	</div>
+</body>
+</html>
